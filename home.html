@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initialscale=1.0" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <script src="js/jquery.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via files// -->
+    <!-- [if it is IE 9]>
+<script src="js/html5shiv.js"></script>
+<script scr="js/respond.min.js"></script>
+<![endif] -->
+    <style>
+
+        h3 {
+            padding: 20px;
+            background-color: indigo;
+            color: white;
+        }
+        .navbar, .dropdown-menu {
+            background-color: indigo;
+        }
+
+        .navbar li a, .navbar .navbar-brand {
+            color: white !important;
+        }
+
+        .navbar-nav li a:hover, .navbar-nav li.active a {
+            color: indigo!important;
+            background-color: white !important;
+        }
+
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+            color: white !important;
+        }
+        
+        .bdr {
+            }
+        
+        .jumbotron {
+            background-color: indigo;
+            color: #fff; }
+    
+        .text-justify {
+            text-align: justify; }
+        
+        .bg-indigo {
+            background-color: indigo;
+            color: white;}
+        
+        .btn-lg {
+            margin: 15px 0;
+            background-color: indigo;
+            color: white;}
+        
+        .btn-lg:hover {
+            border: 1px solid indigo;
+            background-color: white !important;
+            color: indigo;}
+        
+        
+        
+        .logo {
+            color: indigo;
+            font-size: 200px;}
+        
+        .bottom-footer {
+            
+        }
+        
+        .footer-nav {
+            text-align: right;
+            list-style: none;
+        }
+        
+        .footer-nav li {
+            display: inline;
+        }
+        
+        .text-footer{
+            font-weight: 600;
+            letter-spacing: 2px;
+            color: white;
+        }
+        
+        .text-footer ul>li {
+            display: block;
+            list-style: none;
+            transition: 300ms;
+            color: white;
+        }
+	</style>
+</head>
+
+<body>
+    <div class="container-fluid">
+    		<nav class="navbar navbar-default bg-indigo"> 
+                <div class="container-fluid">
+			         <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span> 
+                        </button>
+				        <a class="navbar-brand" href="#">Opal Trading</a> 
+			         </div> 
+			         <div class="collapse navbar-collapse" id="myNavbar"> 
+                         <ul class="nav navbar-nav navbar-left"> 
+                             <li class="active"><a href="#">HOME</a></li> 
+                             <li class="dropdown"> 
+                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"> PRODUCTS <b class="caret"></b> </a> 
+                                 <ul class="dropdown-menu"> 
+                                     <li><a href="#">Fruits</a></li> 
+                                     <li><a href="#">Sugar</a></li>  
+                                     <li><a href="#">Rice</a></li> 
+                                 </ul> 
+                             </li>
+                         </ul> 
+			         <div>
+                         <form class="navbar-form navbar-right" role="search">
+                             <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                             </div>
+                             <button type="submit" class="btn btn-default">Go</button>
+                         </form>
+                    </div>
+                    <div>
+				        <button type="button" class="btn btn-default navbar-btn navbar-right">
+                            <span class="glyphicon glyphicon-log-in"></span>  LOGIN 
+				        </button>
+                    </div>
+                </div>
+            </div>
+		</nav>
+        
+		<div class="col-md-12 col-xs-12 jumbotron text-center">
+			<h1>Opal Trading</h1>
+			<p>We provide best logistic services</p>
+			<form class="form-inline">
+                <input type="email" class="form-control" size="50" placeholder="Email Address">
+                <button type="button" class="btn btn-success">Sign Up</button>
+            </form>
+		</div>
+        
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                
+                <div class="thumbnail">
+                    <img class="hidden-xs" src="images/fruits.jpg" alt="fruits thumbnail">
+                        <div class="caption">
+                            <h3 class="text-center">Fruits</h3>
+                            <p class="text-justify">Opal Trading has been sending out foods grown from the ground worldwide since 1994. The nature of foods grown from the ground has earned Opal exchanging, enormous admiration among retailers, merchants, wholesellers and distribtors in more than 30 nations. We work intimately with our accomplices to augment their profits and opportunites. Details incorporate:- </p>
+                            <ul>
+                                <li>ICMSA- Below 20</li>
+                                <li>Colour ICMSA Min</li>
+                                <li>Foreign matter 5 am Min</li>
+                                <li>Polarization 29.9% Min</li>
+                            </ul>
+                            <p><a href="#" class="btn btn-lg" role="button">Order Now</a> </p>
+                        </div>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-md-4">
+                <div class="thumbnail">
+                    <img class="hidden-xs" src="images/sugar.jpg" alt="sugar thumbnail">
+                        <div class="caption">
+                            <h3 class="text-center">Sugar</h3>
+                            <p class="text-justify">Opal Trading has been sending out strong and fine sugar worldwide since 1994. The nature of intense and fine grain has earned Opal exchanging, enormous admiration among retailers, merchants, wholesellers and distribtors in more than 30 nations. We work intimately with our accomplices to boost their profits and opportunites. Details incorporate:- </p> 
+                            <ul>
+                                <li>ICUMSA- Below 60</li>
+                                <li>Colour 45 ICUMSA MAX</li>
+                                <li>Foreign matter 10 ppm Max</li>
+                                <li>Polarization 19.9% Min</li>
+                            </ul>
+                            <p><a href="#" class="btn btn-lg" role="button">Order Now</a> </p>
+                        </div>
+                </div>
+            </div>
+            
+            <div class="col-xs-12 col-md-4">
+                <div class="thumbnail">
+                    <img class="hidden-xs" src="images/rice.jpg" alt="rice thumbnail">
+                        <div class="caption">
+                            <h3 class="text-center">Rice</h3>
+                            <p class="text-justify">Opal Trading has been sending out intense and fine rice grain worldwide since 1994. The nature of strong and fine grain has earned Opal exchanging, enormous admiration among retailers, shippers, wholesellers and distribtors in more than 30 nations. We work intimately with our accomplices to augment their profits and opportunites. Particulars incorporate:- </p> 
+                            <ul>
+                                <li>IUMSA- Below 60</li>
+                                <li>Colour 50 IUMSA MAX</li>
+                                <li>Foreign matter 10 am Max</li>
+                                <li>Polarization 19.9% Min</li>
+                            </ul>
+                            <p><a href="#" class="btn btn-lg" role="button">Order Now</a> </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+            <div class="container-fluid">
+              <div class="row visible-md visible-lg">
+                <div class="col-sm-8">
+                  <h2>Profile<small> - About Our Company</small></h2>
+                     <p class="text-justify">Opal Trading has been prospering in the enthusiastic Melbourne neighborhood for more than 20 years. Established by Awais Ghafoor in 1994, it has subsequent to wind up open restricted organization. Be that as it may, the area and administration are pretty much as they were more than two decades prior. We are expert in exchanging and give all kind of logistic administrations. All fare things are of magnificent quality with no fake material utilized. WE encourages exchanging organization between our clients everywhere throughout the world. We are effectively fabricating exchange channels around the world.</p>
+
+                    <p class="text-justify">We are sending out extensive variety of nourishment things uniquely sugar and rice to our business accomplices worldwide.</p>
+
+                    <p class="text-justify"><strong>Our Mission:</strong> Provide excellent products and sevices to our customers.</p>
+
+                    <p class="text-justify">We make it a point to have warm relationship right from the grass root level and consequently we have a wide reach up till the fields and farms where the provincial thing is produced. This licenses us to offer our clients quality things at apparent rates. Keeping up whole deal relationship with each one of our clients is our huge target and we attempt to surpass desires in that each day. What isolates us from our adversaries is the commitment and obligation we have towards holding our customers.</p>
+
+                    <p class="text-justify">We at Opal Trading work to procure the trust of our customers and go for giving the absolute best to every one of them. The items we fare are of first rate quality are made accessible to you as and when required. We guarantee impeccable data and convenient redesigns so you can settle on the best choice when purchasing premium fare merchandise.</p>
+                </div>
+                <div class="col-md-4">
+                  <span class="glyphicon glyphicon-globe logo"></span>
+                </div>
+              </div>
+            </div>
+        
+        
+        
+    
+        <div class="container-fluid bg-indigo">
+            <div class="row">
+            
+                <div class="col-md-12">
+                    <h2 class="text-center">CONTACT US</h2>
+                    <div class="row">
+                        <div class="col-md-5">
+
+                            <p>Contact us and we'll get back to you within 24 hours.</p>
+
+                            <p><span class="glyphicon glyphicon-map-marker"></span> Melbourne, AUS</p>
+                            <p><span class="glyphicon glyphicon-phone"></span> +61 451181158</p>
+                            <p><span class="glyphicon glyphicon-envelope"></span> 100036063@student.swin.edu.au</p>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                                </div>
+                            </div>
+                            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <button class="btn btn-success pull-right" type="submit">Send</button>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div id="footer">
+                    <div class="col-md-4 col-xs-12">
+                        <p class="text-muted">This Website is designed by <a href="#">Awais Ghafoor</a></p>
+                    </div>
+                <div class="text-center">
+                    <div class="col-md-4 hidden-xs">
+                        <a href="#">
+                            <span class="glyphicon glyphicon-chevron-up"></span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 hidden-xs">
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        
+        
+        
+        
+        
+        
+    </div>
+    <!-- Jquery - required for Bootstrap's JavaScript plaugins -->
+    <script src="js/jquery.min.js"></script>
+    <!-- All Bootstrap plugins file -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
